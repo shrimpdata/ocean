@@ -10,8 +10,8 @@ class MovingSprite(Sprite):
         self.x_velocity = 0
         self.y_velocity = 0
 
-    def set_x_velocity(self, velocity):
-        self.x_velocity = velocity
+    def add_x_velocity(self, velocity):
+        self.x_velocity += velocity
 
-    def set_y_velocity(self, velocity):
-        self.y_velocity = velocity
+    def add_y_velocity(self, velocity):
+        self.y_velocity += velocity
