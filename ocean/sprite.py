@@ -11,7 +11,7 @@ class MovingSprite(Sprite):
         self.y_velocity = 0
 
     def set_x_velocity(self, velocity):
-        x_velocity = velocity
+        self.x_velocity = velocity
 
     def set_y_velocity(self, velocity):
-        y_velocity = velocity
+        self.y_velocity = velocity
